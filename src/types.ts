@@ -19,7 +19,7 @@ export interface Transaction {
   totalAmount: number;
   paidAmount: number;
   changeAmount: number;
-  paymentMethod: 'Tunai' | 'QRIS' | 'Transfer';
+  paymentMethod: 'Tunai' | 'QRIS' | 'Transfer' | 'E-Wallet'| 'E-Wallet';
   createdAt: number; // Timestamp
   cashierName?: string;
 }
