@@ -1,0 +1,8 @@
+{
+  "name": "Remix: Toko Daging Segar",
+  "description": "Aplikasi kasir digital untuk toko daging dengan penghitung berat otomatis, pencetakan struk, pengelolaan produk, dan laporan penjualan harian.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
