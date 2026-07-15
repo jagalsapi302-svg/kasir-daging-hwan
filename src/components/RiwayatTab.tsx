@@ -19,7 +19,7 @@ export default function RiwayatTab({ transactions, onRefreshTransactions }: Riwa
   const [isReceiptOpen, setIsReceiptOpen] = useState(false);
 
   // Search/Filters for Sales list
-  const [filterMethod, setFilterMethod] = useState<'Semua' | 'Tunai' | 'QRIS' | 'Transfer'>('Semua');
+  const [filterMethod, setFilterMethod] = useState<'Semua' | 'Tunai' | 'QRIS' | 'Transfer'| 'E-Wallet'>('Semua');
 
   useEffect(() => {
     const dailyReports = DB.getDailyReports();
@@ -365,6 +365,7 @@ export default function RiwayatTab({ transactions, onRefreshTransactions }: Riwa
                     <option value="Tunai">Tunai</option>
                     <option value="QRIS">QRIS</option>
                     <option value="Transfer">Transfer</option>
+                    <option value="E-Wallet">E-Wallet</option>
                   </select>
                 </div>
               </div>
